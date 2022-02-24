@@ -9,4 +9,5 @@
 -Keyboard Events
 -Input and Change Events
 -Event Bubbling 
+    *.stopPropagation() stops event bubbling
 -Event Delegation
