@@ -33,9 +33,9 @@ function shout() {
 
 const tasButton = document.querySelector('#tas');
 
-//this will override twists and only shout will be executed
-// tasButton.onclick = twist;
-// tasButton.onclick = shout;
+//this will override twists and only shoul
+    // tasButton.onclick = twist;
+    // tasButton.onclick = shout;
 
 tasButton.addEventListener('click', twist, {once: "true"});
 tasButton.addEventListener('click', shout);
